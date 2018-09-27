@@ -31,15 +31,17 @@ li {
 	color: red;
 }
 
-main{
+main {
+	width: 80%;
 	padding-top: 100px;
-	min-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	/*background-color: pink;*/
 }
 
 .container-search {
-	width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
+	/*width: 1000px;
+	margin-left: 0px;*/
 }
 
 label {
@@ -62,4 +64,14 @@ label {
 
 .search-icon {
 	width: 30px;
+}
+
+.page-nav {
+	width: 500px;
+}
+
+.previous, .page-numbers, .next {
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 5%;
 }

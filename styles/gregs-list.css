@@ -1,4 +1,4 @@
-.container {
+.container-one {
   padding-left: 60px;
   padding-right: 60px;
   box-sizing: border-box;
@@ -31,9 +31,25 @@ li {
 	color: red;
 }
 
-main {
-	padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 20px;
+.container-two {;
+    padding-top: 100px;
+    position: relative;
 }
 
+label {
+	position: absolute;
+	font-size: small;
+}
+
+.container-three {
+	position: absolute;
+}
+
+.search-bar {
+	display: inline-block;
+}
+
+.magnifying-glass {
+	display: inline-block;
+	width: 20px;
+}

@@ -1,0 +1,39 @@
+.container {
+  padding-left: 60px;
+  padding-right: 60px;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 60px;
+  background-color: lightgrey;
+  position: fixed;
+  width: 100%;
+}
+
+.logotype {
+	position: absolute;
+	vertical-align: middle;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	left: 20px;
+	font-size: 15pt;
+}
+
+nav ul {
+	position: absolute;
+	list-style: none;
+	right: 20px;
+}
+
+li {
+	display: inline-block;
+	color: red;
+}
+
+main {
+	padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+

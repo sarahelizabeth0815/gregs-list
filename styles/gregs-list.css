@@ -1,77 +1,128 @@
-nav {
-  height: 60px;
-  background-color: lightgrey;
-  position: fixed;
-  width: 100%;
-}
-
-.container-nav {
-  padding-left: 60px;
-  padding-right: 60px;
+* {
   box-sizing: border-box;
 }
 
-.logotype {
-	position: absolute;
-	vertical-align: middle;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	left: 20px;
-	font-size: 15pt;
+body {
+  margin: 0; 
+  padding: 80px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px; 
 }
 
-nav ul {
-	position: absolute;
-	list-style: none;
-	right: 20px;
+nav, section {
+  margin-bottom: 30px;
 }
 
-li {
-	display: inline-block;
-	color: red;
+a {
+  text-decoration: none;
 }
 
-main {
-	width: 80%;
-	padding-top: 100px;
-	margin-left: auto;
-	margin-right: auto;
-	/*background-color: pink;*/
+a:hover {
+  text-decoration: underline;
 }
 
-.container-search {
-	/*width: 1000px;
-	margin-left: 0px;*/
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #EEEEEE;
+  border-bottom: 1px solid #DDDDDD;
 }
 
-label {
-	display: block;
-	font-size: small;
+.top-nav {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  
 }
 
-.search-field, .search-icon {
-	display: inline-block;
-	vertical-align: middle;
+.nav-link {
+  font-size: 18px;
+  padding: 0 6px;
 }
 
-.search-field {
-	padding-right: 100px;
-	padding-left: 5px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	margin-top: 5px;
+.rl-logo {
+  display: inline-block;
+  font-weight: 800;
+  
 }
 
-.search-icon {
-	width: 30px;
+.rl-logo h1 {
+  font-size: 18px;
+  font-weight: normal;
+  cursor: pointer; 
+  margin: 0;
+  padding: 0;
+
 }
 
-.page-nav {
-	width: 500px;
+.search-section .search-label {
+  display: block;
+  margin-bottom: 8px;
 }
 
-.previous, .page-numbers, .next {
-	display: inline-block;
-	border: 1px solid black;
-	border-radius: 5%;
+.search-section .search-field, 
+.search-section .search-button {
+  display: inline-block;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  
+}
+
+.search-section input {
+  font-size: 16px; 
+  font-weight: 500;
+  width: 400px;
+  height: 30px;
+  padding: 0 5px 0 8px;
+  
+}
+
+.search-section .search-button {
+  width: 37px;
+  height: 30px;
+  padding: 2px 6px 3px 6px;
+  background-color: white;
+  vertical-align: bottom;
+}
+
+.pages {
+  display: inline-block;
+  font-size: 0;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+
+.pages-button, 
+.pages-display {
+  display: inline-block;
+  font-size: 16px;
+  padding: 8px 25px;
+}
+
+.pages-display {
+  border-left: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
+}
+
+.listings {
+  padding: 0;
+}
+
+.listing {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.listing-date,
+.listing-location {
+  color: #999;
+}
+
+.listing-title {
+  font-weight: 700;
+  margin-left: 8px;
+  margin-right: 8px;
 }
